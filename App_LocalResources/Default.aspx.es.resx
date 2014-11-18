@@ -118,24 +118,24 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="btnFemale.text" xml:space="preserve">
-    <value>Female</value>
+    <value>Mujere</value>
   </data>
   <data name="btnMale.text" xml:space="preserve">
-    <value>Male</value>
+    <value>Hombre</value>
   </data>
   <data name="btnSubmit.text" xml:space="preserve">
-    <value>Submit</value>
+    <value>Presentar</value>
   </data>
   <data name="lblGender.text" xml:space="preserve">
-    <value>I am:</value>
+    <value>Yo soy:</value>
   </data>
   <data name="lblGraddate.text" xml:space="preserve">
-    <value>I plan to graduate on:</value>
+    <value>Tengo la intención de graduarse a: </value>
   </data>
   <data name="lblName.text" xml:space="preserve">
-    <value>My name is:</value>
+    <value>Mi nombre es: </value>
   </data>
   <data name="lblSalary.text" xml:space="preserve">
-    <value>When I graduate, I hope to earn</value>
+    <value>Cuando me gradúe, espero poder ganar</value>
   </data>
 </root>

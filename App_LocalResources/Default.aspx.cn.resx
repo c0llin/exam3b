@@ -118,24 +118,24 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="btnFemale.text" xml:space="preserve">
-    <value>Female</value>
+    <value>女</value>
   </data>
   <data name="btnMale.text" xml:space="preserve">
-    <value>Male</value>
+    <value>男性</value>
   </data>
   <data name="btnSubmit.text" xml:space="preserve">
-    <value>Submit</value>
+    <value>提交</value>
   </data>
   <data name="lblGender.text" xml:space="preserve">
-    <value>I am:</value>
+    <value>我</value>
   </data>
   <data name="lblGraddate.text" xml:space="preserve">
-    <value>I plan to graduate on:</value>
+    <value>我打算在毕业</value>
   </data>
   <data name="lblName.text" xml:space="preserve">
-    <value>My name is:</value>
+    <value>我的名字是</value>
   </data>
   <data name="lblSalary.text" xml:space="preserve">
-    <value>When I graduate, I hope to earn</value>
+    <value>当我毕业了，我希望能换来</value>
   </data>
 </root>
