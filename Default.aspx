@@ -19,7 +19,7 @@
         <br />
         <asp:Label ID="lblGraddate" runat="server" Text="I plan to graduate on:" meta:resourceKey="lblGraddate"></asp:Label>
         <br />
-        <asp:Calendar ID="Calendar1" runat="server"></asp:Calendar>
+        <asp:Calendar ID="cal" runat="server"></asp:Calendar>
         <br />
         <asp:Label ID="lblSalary" runat="server" Text="When I graduate, I hope to earn" meta:resourceKey="lblSalary"></asp:Label>
 &nbsp;<asp:TextBox ID="txtSalary" runat="server"></asp:TextBox>
@@ -28,6 +28,13 @@
         <asp:Button ID="btnSubmit" runat="server" Text="Submit" meta:resourceKey="btnSubmit"/>
     
     </div>
+        <asp:DropDownList ID="drpLang" runat="server" AutoPostBack ="true" >
+            <asp:ListItem>Auto</asp:ListItem>
+            <asp:ListItem Value="en-US">English</asp:ListItem>
+            <asp:ListItem Value="es-ES">Spanish</asp:ListItem>
+            <asp:ListItem Value="zh-CN">Chinese (Simplified)</asp:ListItem>
+            <asp:ListItem Value="ar-EG">Arabic</asp:ListItem>
+        </asp:DropDownList>
     </form>
 </body>
 </html>
