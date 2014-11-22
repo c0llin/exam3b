@@ -14,8 +14,8 @@
 &nbsp;<asp:TextBox ID="txtName" runat="server"></asp:TextBox>
         <br />
         <asp:Label ID="lblGender" runat="server" Text="I am:" meta:resourceKey="lblGender"></asp:Label>
-        <asp:RadioButton ID="btnFemale" runat="server" Text="Female" meta:resourceKey="btnFemale"/>
-        <asp:RadioButton ID="btnMale" runat="server" Text="Male" meta:resourceKey="btnMale"/>
+        <asp:RadioButton ID="btnFemale" runat="server" Text="Female" meta:resourceKey="btnFemale" GroupName="gender"/>
+        <asp:RadioButton ID="btnMale" runat="server" Text="Male" meta:resourceKey="btnMale" GroupName="gender"/>
         <br />
         <asp:Label ID="lblGraddate" runat="server" Text="I plan to graduate on:" meta:resourceKey="lblGraddate"></asp:Label>
         <br />
