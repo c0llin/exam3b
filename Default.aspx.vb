@@ -11,5 +11,15 @@ Partial Class _Default
             Thread.CurrentThread.CurrentUICulture = New CultureInfo(lang)
             Thread.CurrentThread.CurrentCulture = CultureInfo.CreateSpecificCulture(lang)
         End If
-    End Sub
+    End Sub 'InitalizeCulture
+
+    Protected Sub btnSubmit_Click(sender As Object, e As EventArgs) Handles btnSubmit.Click
+        'Declare variable
+        Dim salary As String
+        'get user input
+        salary = txtSalary.Text.ToString
+
+
+
+    End Sub 'btnSubmit_Click
 End Class
