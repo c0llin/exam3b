@@ -17,8 +17,9 @@
     
      <div class="row"> 
          <div class="col-md-3">
+             <asp:Label ID="Label1" runat="server" Text="Please choose a language"></asp:Label>
                 <asp:DropDownList ID="drpLang" runat="server" AutoPostBack ="true" >
-                <asp:ListItem>Auto</asp:ListItem>
+                
                 <asp:ListItem Value="en-US">English</asp:ListItem>
                 <asp:ListItem Value="es-ES">Spanish</asp:ListItem>
                 <asp:ListItem Value="zh-CN">Chinese (Simplified)</asp:ListItem>
