@@ -15,11 +15,16 @@ Partial Class _Default
 
     Protected Sub btnSubmit_Click(sender As Object, e As EventArgs) Handles btnSubmit.Click
         'Declare variable
-        Dim salary As String
+        Dim salary, name As String
+        Dim calDate As Date
         'get user input
         salary = txtSalary.Text.ToString
+        name = txtName.Text
+        calDate = cal.SelectedDate
 
-
+        lblDateOutput.Text = calDate.ToShortDateString
+        lblNameOuput.Text = name
+        lblMoneyVar.Text = salary
 
     End Sub 'btnSubmit_Click
 End Class
