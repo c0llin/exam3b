@@ -16,7 +16,8 @@
      <form id="form1" runat="server">
     
      <div class="row"> 
-         <div class="col-md-3">
+        <%If Not IsPostBack Then%>
+           <div class="col-md-3">
              <asp:Label ID="Label1" runat="server" Text="Please choose a language"></asp:Label>
                 <asp:DropDownList ID="drpLang" runat="server" AutoPostBack ="true" >
                 
@@ -28,7 +29,7 @@
             
         </div>   
         <div class="col-md-9">
-    
+       
             <asp:Label ID="lblName" runat="server" Text="My name is:" meta:resourceKey="lblName"></asp:Label>
     &nbsp;<asp:TextBox ID="txtName" runat="server"></asp:TextBox>
             <br />
@@ -45,7 +46,28 @@
             <br />
             <br />
             <asp:Button ID="btnSubmit" runat="server" Text="Submit" meta:resourceKey="btnSubmit"/>
-    
+        <%Else%>
+            <div class="col-md-3">
+             <asp:Label ID="Label2" runat="server" Text="Please choose a language"></asp:Label>
+                <asp:DropDownList ID="DropDownList1" runat="server" AutoPostBack ="true" >
+                
+                <asp:ListItem Value="en-US">English</asp:ListItem>
+                <asp:ListItem Value="es-ES">Spanish</asp:ListItem>
+                <asp:ListItem Value="zh-CN">Chinese (Simplified)</asp:ListItem>
+                <asp:ListItem Value="ar-EG">Arabic</asp:ListItem>
+                </asp:DropDownList>
+            
+        </div>  
+        <div class="col-md-9">
+            <br />
+            <asp:Label ID="lblGreeting" runat="server" Text="Hello, Mr./Ms."></asp:Label><asp:Label ID="lblNameOuput" runat="server" Text=""></asp:Label>
+            <br />
+            <asp:Label ID="lblMessage" runat="server" Text="I hope you have a great day when you graduate on "></asp:Label><asp:Label ID="lblDateOutput" runat="server" Text=""></asp:Label><br />
+            <asp:Label ID="lblMsgSalaryOutput" runat="server" Text="I wish you well in your career after graduation. I hope you earn "></asp:Label><asp:Label ID="lblMoneyVar" runat="server" Text="{money}"></asp:Label><asp:Label ID="lblMsgSalary2" runat="server" Text=" as your salary in your first job!"></asp:Label>
+            <br />
+            <asp:Label ID="lblVisitMe" runat="server" Text="Please visit me on "></asp:Label> <a href="https://github.com/c0llin">GitHub</a>
+        </div>
+        <%End If %>
         </div>
     </div> <!-- row  -->  
        
