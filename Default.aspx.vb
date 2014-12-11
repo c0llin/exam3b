@@ -18,13 +18,22 @@ Partial Class _Default
         Dim salary, name As String
         Dim calDate As Date
         'get user input
+
+        If btnMale.Checked = True Then
+            lblTitle.Text = "Mr. "
+        ElseIf btnFemale.Checked = True Then
+            lblTitle.Text = "Ms. "
+        Else
+            MsgBox("Gender Required")
+        End If
+
         salary = txtSalary.Text.ToString
         name = txtName.Text
         calDate = cal.SelectedDate
 
         lblDateOutput.Text = calDate.ToShortDateString
         lblNameOuput.Text = name
-        lblMoneyVar.Text = salary
+        lblMoneyVar.Text = FormatCurrency(salary)
 
     End Sub 'btnSubmit_Click
 End Class
