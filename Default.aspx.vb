@@ -32,7 +32,7 @@ Partial Class _Default
         calDate = cal.SelectedDate
 
         lblDateOutput.Text = calDate.ToShortDateString
-        lblNameOuput.Text = name
+        lblNameOutput.Text = name
         lblMoneyVar.Text = FormatCurrency(salary)
 
     End Sub 'btnSubmit_Click

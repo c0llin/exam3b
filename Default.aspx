@@ -17,6 +17,14 @@
             <h1>Welcome to MSCI:3300</h1>
             <h3>Software Design and Development</h3>
         </div>
+        <nav class="navbar navbar-default">   
+    <div>
+      <ul class="nav navbar-nav">
+        <li><a href="default.aspx">Home</a></li>
+      </ul>
+    </div>
+  
+</nav>
         <form id="form1" runat="server" role="form">
     
      <div class="row"> 
@@ -65,14 +73,17 @@
                         </asp:DropDownList>
                     </div> -->
          </div>  
-                    <div id="pb" class="panel panel-default col-md-9">
+                    <div id="pb" class=" panel panel-default col-md-9">
                         <br />
-                        <asp:Label ID="lblGreeting" runat="server" Text="Hello "></asp:Label><asp:Label ID="lblTitle" runat="server" Text="[Mr/Ms]"></asp:Label><asp:Label ID="lblNameOuput" runat="server" Text=""></asp:Label>
+                        <asp:Label ID="lblGreeting" runat="server" Text="Hello " meta:resourceKey="lblGreeting"></asp:Label><asp:Label ID="lblTitle" runat="server" Text="[Mr/Ms]" meta:resourceKey="lblTitle"></asp:Label>
+                        <asp:Label ID="lblNameOutput" runat="server" Text="" meta:resourceKey="lblNameOutput"></asp:Label>
                         <br />
-                        <asp:Label ID="lblMessage" runat="server" Text="I hope you have a great day when you graduate on "></asp:Label><asp:Label ID="lblDateOutput" runat="server" Text=""></asp:Label><br />
-                        <asp:Label ID="lblMsgSalaryOutput" runat="server" Text="I wish you well in your career after graduation. I hope you earn "></asp:Label><asp:Label ID="lblMoneyVar" runat="server" Text="{money}"></asp:Label><asp:Label ID="lblMsgSalary2" runat="server" Text=" as your salary in your first job!"></asp:Label>
+                        <asp:Label ID="lblMessage" runat="server" Text="I hope you have a great day when you graduate on " meta:resourceKey="lblMessage"></asp:Label><asp:Label ID="lblDateOutput" runat="server" Text="" meta:resourceKey="lblDateOutput"></asp:Label><br />
+                        <asp:Label ID="lblMsgSalaryOutput" runat="server" Text="I wish you well in your career after graduation. I hope you earn " meta:resourceKey="lblMsgSalaryOutput">
+
+                        </asp:Label><asp:Label ID="lblMoneyVar" runat="server" Text="{money}" meta:resourceKey="lblMoneyVar"></asp:Label><asp:Label ID="lblMsgSalary2" runat="server" Text=" as your salary in your first job!" meta:resourceKey="lblMsgSalary2"></asp:Label>
                         <br />
-                        <asp:Label ID="lblVisitMe" runat="server" Text="Please visit me on "></asp:Label> <a href="https://github.com/c0llin">GitHub</a>
+                        <asp:Label ID="lblVisitMe" runat="server" Text="Please visit me on " meta:resourceKey="lblVisitMe"></asp:Label> <a href="https://github.com/c0llin">GitHub</a>
                     </div>      
                 </div> <!-- row  -->  
             </form>

@@ -132,10 +132,28 @@
   <data name="lblGraddate.text" xml:space="preserve">
     <value>Tengo la intención de graduarse a: </value>
   </data>
+  <data name="lblGreeting.text" xml:space="preserve">
+    <value>Hola</value>
+  </data>
+  <data name="lblMessage.text" xml:space="preserve">
+    <value>Espero que tengas un gran día cuando se gradúe en </value>
+  </data>
+  <data name="lblMsgSalary2.text" xml:space="preserve">
+    <value>como su salario en su primer trabajo!</value>
+  </data>
+  <data name="lblMsgSalaryOutput.text" xml:space="preserve">
+    <value>Te deseo lo mejor en su carrera después de la graduación. Espero que gane </value>
+  </data>
   <data name="lblName.text" xml:space="preserve">
     <value>Mi nombre es: </value>
   </data>
   <data name="lblSalary.text" xml:space="preserve">
     <value>Cuando me gradúe, espero poder ganar</value>
+  </data>
+  <data name="lblTitle.text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblVisitMe.text" xml:space="preserve">
+    <value>Por favor, visite conmigo en </value>
   </data>
 </root>
