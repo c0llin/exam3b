@@ -18,7 +18,7 @@ Partial Class _Default
         Dim salary, name As String
         Dim calDate As Date
         'get user input
-
+        pb.Style.Add("display", "block")
         If btnMale.Checked = True Then
             lblTitle.Text = "Mr. "
         ElseIf btnFemale.Checked = True Then
@@ -34,6 +34,6 @@ Partial Class _Default
         lblDateOutput.Text = calDate.ToShortDateString
         lblNameOutput.Text = name
         lblMoneyVar.Text = FormatCurrency(salary)
-
+        maindisplay.Style.Add("display", "none")
     End Sub 'btnSubmit_Click
 End Class

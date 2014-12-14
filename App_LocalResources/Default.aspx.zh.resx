@@ -132,10 +132,25 @@
   <data name="lblGraddate.text" xml:space="preserve">
     <value>我打算在毕业</value>
   </data>
+  <data name="lblGreeting.text" xml:space="preserve">
+    <value>您好</value>
+  </data>
+  <data name="lblMessage.text" xml:space="preserve">
+    <value>我希望你有一个伟大的日子，当你毕业的</value>
+  </data>
+  <data name="lblMsgSalary2.text" xml:space="preserve">
+    <value>因为你的薪水在你的第一份工作！</value>
+  </data>
+  <data name="lblMsgSalaryOutput.text" xml:space="preserve">
+    <value>祝你顺利毕业后，你的职业生涯。我希望你赚</value>
+  </data>
   <data name="lblName.text" xml:space="preserve">
     <value>我的名字是</value>
   </data>
   <data name="lblSalary.text" xml:space="preserve">
     <value>当我毕业了，我希望能换来</value>
+  </data>
+  <data name="lblVisitMe.text" xml:space="preserve">
+    <value>请访问我的</value>
   </data>
 </root>

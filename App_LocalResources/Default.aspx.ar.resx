@@ -132,10 +132,25 @@
   <data name="lblGraddate.text" xml:space="preserve">
     <value>أخطط للتخرج على:</value>
   </data>
+  <data name="lblGreeting.text" xml:space="preserve">
+    <value>مرحبا</value>
+  </data>
+  <data name="lblMessage.text" xml:space="preserve">
+    <value>آمل أن يكون لديك يوم عظيم عند التخرج على</value>
+  </data>
+  <data name="lblMsgSalary2.text" xml:space="preserve">
+    <value>كما راتبك في أول وظيفة الخاص بك!</value>
+  </data>
+  <data name="lblMsgSalaryOutput.text" xml:space="preserve">
+    <value>أتمنى لكم التوفيق في حياتك المهنية بعد التخرج. آمل أن تكسب</value>
+  </data>
   <data name="lblName.text" xml:space="preserve">
     <value>اسمي</value>
   </data>
   <data name="lblSalary.text" xml:space="preserve">
     <value>عند تخرجي آمل أن يكسب:</value>
+  </data>
+  <data name="lblVisitMe.text" xml:space="preserve">
+    <value>يرجى زيارة لي على</value>
   </data>
 </root>

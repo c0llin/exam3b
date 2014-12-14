@@ -41,7 +41,7 @@
                 </div> 
             </div> <!-- panel-default -->  
          
-        <div id="default" class="panel panel-default col-md-9">
+        <div id="maindisplay" runat="server" class="panel panel-default col-md-9">
             <div class="form-group ">
        
             <asp:Label ID="lblName" runat="server" Text="My name is:" meta:resourceKey="lblName"></asp:Label>
@@ -73,7 +73,7 @@
                         </asp:DropDownList>
                     </div> -->
          </div>  
-                    <div id="pb" class=" panel panel-default col-md-9">
+                    <div id="pb" runat="server" class="panel panel-default col-md-9" style="display:none">
                         <br />
                         <asp:Label ID="lblGreeting" runat="server" Text="Hello " meta:resourceKey="lblGreeting"></asp:Label><asp:Label ID="lblTitle" runat="server" Text="[Mr/Ms]" meta:resourceKey="lblTitle"></asp:Label>
                         <asp:Label ID="lblNameOutput" runat="server" Text="" meta:resourceKey="lblNameOutput"></asp:Label>
