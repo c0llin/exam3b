@@ -57,7 +57,7 @@
             <asp:Calendar ID="cal" runat="server" Width="331px"></asp:Calendar>
             <div class="form-group">
             <asp:Label ID="lblSalary" runat="server" Text="When I graduate, I hope to earn" meta:resourceKey="lblSalary"></asp:Label>
-    &nbsp;<asp:TextBox ID="txtSalary" runat="server"></asp:TextBox>
+    &nbsp;<asp:TextBox ID="txtSalary" runat="server"></asp:TextBox><asp:RequiredFieldValidator ID="rfvSal" runat="server" ErrorMessage="*" ControlToValidate="txtSalary" ForeColor="Red"></asp:RequiredFieldValidator>
             </div>
             
             
