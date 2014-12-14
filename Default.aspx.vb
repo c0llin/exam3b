@@ -31,7 +31,7 @@ Partial Class _Default
         name = txtName.Text
         calDate = cal.SelectedDate
 
-        lblDateOutput.Text = calDate.ToShortDateString
+        lblDateOutput.Text = calDate
         lblNameOutput.Text = name
         lblMoneyVar.Text = FormatCurrency(salary)
         maindisplay.Style.Add("display", "none")
