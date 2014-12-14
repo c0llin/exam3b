@@ -45,7 +45,7 @@
             <div class="form-group ">
        
             <asp:Label ID="lblName" runat="server" Text="My name is:" meta:resourceKey="lblName"></asp:Label>
-            <asp:TextBox ID="txtName" runat="server"></asp:TextBox>
+            <asp:TextBox ID="txtName" runat="server"></asp:TextBox><asp:RequiredFieldValidator ID="rvfName" runat="server" ErrorMessage="*" ControlToValidate="txtName" ForeColor="Red"></asp:RequiredFieldValidator>
             
              <div class="form-group">
                 <asp:Label ID="lblGender" runat="server" Text="I am:" meta:resourceKey="lblGender"></asp:Label>
