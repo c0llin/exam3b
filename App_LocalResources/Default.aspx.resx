@@ -135,6 +135,9 @@
   <data name="lblGreeting.text" xml:space="preserve">
     <value>Hello </value>
   </data>
+  <data name="lblLanguageSelect.text" xml:space="preserve">
+    <value>Please choose a language</value>
+  </data>
   <data name="lblMessage.text" xml:space="preserve">
     <value>I hope you have a great day when you graduate on</value>
   </data>

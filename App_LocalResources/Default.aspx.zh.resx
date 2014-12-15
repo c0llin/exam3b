@@ -135,6 +135,9 @@
   <data name="lblGreeting.text" xml:space="preserve">
     <value>您好</value>
   </data>
+  <data name="lblLanguageSelect.text" xml:space="preserve">
+    <value>请选择一种语言</value>
+  </data>
   <data name="lblMessage.text" xml:space="preserve">
     <value>我希望你有一个伟大的日子，当你毕业的</value>
   </data>

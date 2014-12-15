@@ -20,7 +20,7 @@
         <nav class="navbar navbar-default">   
     <div>
       <ul class="nav navbar-nav">
-        <li><a href="default.aspx">Home</a></li>
+        <li><a href="default.aspx"><i class="glyphicon glyphicon-home"></i></a></li>
       </ul>
     </div>
   
@@ -31,7 +31,7 @@
         <div class="panel panel-default col-md-3">
 
                <div class="panel-body">
-                 <asp:Label ID="lblLanguageSelect" runat="server" Text="Please choose a language"></asp:Label>
+                 <asp:Label ID="lblLanguageSelect" runat="server" Text="Please choose a language" meta:resourceKey="lblLanguageSelect"></asp:Label>
                     <asp:DropDownList ID="drpLang" runat="server" AutoPostBack ="true" >
                     <asp:ListItem Value="en-US">English</asp:ListItem>
                     <asp:ListItem Value="es-ES">Spanish</asp:ListItem>
